@@ -31,7 +31,7 @@ const NavBar = () => {
     <CustomLink href="/articles" title="Certificates" className='ml-4'/>
   </nav>
   <nav className="flex item-center justify-center flex-wrap">
-    <motion.a href="https://linkedin.com" target={"_blank"}
+    <motion.a href="https://www.linkedin.com/in/harsha-g-72a900292" target={"_blank"}
     className='w-6 ml-3'
     whileHover={{y:-2 }}
     whileTap={{scale:0.9}}

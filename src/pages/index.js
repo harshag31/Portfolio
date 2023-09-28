@@ -3,9 +3,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import PP from '../../public/images/profile/developer-pic-1.png'
 import AnimatedText from '@/components/AnimatedText'
+import Lottie, {LottieRefCurrentProps} from "lottie-react"
+import animationData from "/bot.json"
+import {useRef} from 'react'
 
 
 export default function Home() {
+  const botRef = useRef<LottieRefCurrentProps>(null)
   return (
     <>
 
@@ -18,9 +22,16 @@ export default function Home() {
        <Layout className='pt-0'>
 
           <div className='flex items-center justify-between w-full'>
+          
             <div className='w-1/2'>
-              <Image src={PP} alt="Harsha G" className='w-full h-auto'/>
+              
+              <Lottie onComplete={() => {
+              botRef.current?.goToASndPlay(45,true)
+              
+              }} lottieref={botRef}animationData={animationData} className/> 
+                         
             </div>
+
             <div className='w-1/2 flex flex-col items-center self-center'> 
               <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left'/>
               <p>
