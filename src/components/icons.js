@@ -2,8 +2,8 @@
 const Linkedin = ({className, ...rest}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="1.7em"
-    height="1.5em"
+    width="1.em"
+    height="1.em"
     viewBox="0 0 256 256"
     className={`w-full h-auto${className}`}
     {...rest}
