@@ -2,8 +2,8 @@ import React from 'react';
 import a from 'next/link';
 import { useRouter } from 'next/router'
 import Logo from './Logo';
-import Linkedin from './icons'
 import {motion} from "framer-motion";
+import { Linkedin } from './icons';
 
 const CustomLink=({href,title,className=""})=>{
 const router = useRouter();
@@ -27,8 +27,8 @@ const NavBar = () => {
   <nav>
     <CustomLink href="/" title="Home" className='mr-4'/>
     <CustomLink href="/about" title="About" className='mx-4'/>
-    <CustomLink href="/projects" title="Projects" className='mx-4'/>
-    <CustomLink href="/articles" title="Certificates" className='ml-4'/>
+    <CustomLink href="/projects" title="Skills" className='mx-4'/>
+    <CustomLink href="/articles" title="Projects" className='ml-4'/>
   </nav>
   <nav className="flex item-center justify-center flex-wrap">
     <motion.a href="https://www.linkedin.com/in/harsha-g-72a900292" target={"_blank"}
