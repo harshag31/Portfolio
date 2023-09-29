@@ -4,7 +4,7 @@ import Image from 'next/image'
 import PP from '../../public/images/profile/developer-pic-1.png'
 import AnimatedText from '@/components/AnimatedText'
 import Lottie from "lottie-react"
-import animationData from "/bot.json"
+import animationData from "/space.json"
 import {useRef} from 'react'
 
 
@@ -29,7 +29,7 @@ export default function Home() {
             </div>
 
             <div className='w-1/2 flex flex-col items-center self-center'> 
-              <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left'/>
+              <AnimatedText text="Vinay kulla Into Reality With Code And Design." className='!text-6xl !text-left'/>
               <p>
               As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
               Explore my latest projects and articles, showcasing my expertise in React.js and web development.

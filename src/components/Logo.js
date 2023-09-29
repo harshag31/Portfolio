@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import {motion} from "framer-motion"
 import Image from 'next/image'
-import hlogo from "../../public/images/profile/hg.png";
+import hlogo from "../../public/images/profile/hg1.svg";
 
 const MotionLink = motion(Link);
 
