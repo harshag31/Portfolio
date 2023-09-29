@@ -3,13 +3,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import PP from '../../public/images/profile/developer-pic-1.png'
 import AnimatedText from '@/components/AnimatedText'
-import Lottie, {LottieRefCurrentProps} from "lottie-react"
+import Lottie from "lottie-react"
 import animationData from "/bot.json"
 import {useRef} from 'react'
 
 
 export default function Home() {
-  const botRef = useRef<LottieRefCurrentProps>(null)
   return (
     <>
 
@@ -25,10 +24,7 @@ export default function Home() {
           
             <div className='w-1/2'>
               
-              <Lottie onComplete={() => {
-              botRef.current?.goToASndPlay(45,true)
-              
-              }} lottieref={botRef}animationData={animationData} className/> 
+              <Lottie animationData={animationData} className='w-full h-auto'/> 
                          
             </div>
 
