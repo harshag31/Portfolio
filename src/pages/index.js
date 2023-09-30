@@ -34,7 +34,7 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center'> 
               <AnimatedText text="Where Imagination Meets Execution, Code and Design in Harmony." className='!text-6xl !text-left'/>
               <p className='my-4 text-base font-medium '>
-              Join me on this exciting journey as I continue to learn, grow, and contribute to the ever-evolving field of engineering. Let's create the future together!"
+              Join me on this exciting journey as I continue to learn, grow, and contribute to the ever-evolving field of engineering. Let's create the future together.
               </p>
               
               <div className='flex items-center self-start mt-2'>
