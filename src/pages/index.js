@@ -45,7 +45,7 @@ export default function Home() {
                 download={true}
                 >Resume  <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
-                <Link href="mailto:harshag3103@gmail.com?subject=Your%20Subject&body=You%20can%20Start%20by%20Saying%20Hi!." target={"_blank"}
+                <Link href="mailto:harshag3103@gmail.com?subject=Your%20Subject&body=You%20can%20Start%20by%20Saying%20Hi%20!." target={"_blank"}
                 className="ml-4 px-5 text-1g font-bold capitalize text-dark underline"
                 >Contact</Link>
             
