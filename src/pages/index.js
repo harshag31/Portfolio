@@ -4,7 +4,7 @@ import Image from 'next/image'
 import PP from '../../public/images/profile/hg1.svg'
 import AnimatedText from '@/components/AnimatedText'
 import Lottie from "lottie-react"
-import animationData from "/bot.json"
+import animationData from "/rocket.json"
 import {useRef} from 'react'
 import Link from 'next/link'
 import {LinkArrow}  from '@/components/icons'
