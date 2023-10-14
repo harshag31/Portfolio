@@ -13,7 +13,6 @@ const Skill = ({names, x ,y})=>{
       initial={{x:0,y:0}}            //Aniamtion seection Animate whileInView try change values harsha after adding sections
       whileInView={{x:x, y:y}}
       transition ={{duration:1.5}}
-      
       >
       {names}
       </motion.div>

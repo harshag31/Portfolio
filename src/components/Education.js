@@ -5,7 +5,7 @@ import Lilcon from './Lilcon';
 const Details =({type, time, place, info})=>{
    const ref =useRef(null);
     return (
-    <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+    <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-left justify-between'>
         <Lilcon reference={ref}/>
         <motion.div
         initial={{y:50}}
@@ -32,14 +32,14 @@ const Education = () => {
 
   return (
     <div className='my-64'>
-        <h2 className='font-bold text-8xl mb-32 w-full text-center'>
+        <h2 className="font-bold text-8xl mb-32 w-full text-center">
         Education
         </h2>
-        <div ref={ref} className='w-[75%] mx-auto relative'>
+        <div ref={ref} className="w-[75%] mx-auto relative">
 
             <motion.div 
             style={{scaleY: scrollYProgress}}
-            className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/>
+            className='absolute left-8 top-0 w-[4px] h-full bg-dark origin-top'/>          
 
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
               
@@ -47,22 +47,22 @@ const Education = () => {
                 <Details 
                 type="Bachelor Of Information Science & Engineering"
                 time="Pursuing B.E. degree with an anticipated graduation in 2025"
-                place="JSS Science and Technology University "
-                info="SJCE campus, Mysuru - 570006."
+                place="JSS Science and Technology University"
+                info="SJCE campus, Mysuru - 570006"
                 />
 
-<Details 
-                type="Bachelor Of Information Science & Engineering"
-                time="Pursuing B.E. degree with an anticipated graduation in 2025"
-                place="JSS Science and Technology University "
+                <Details 
+                type="Diploma in Computer Science and Engineering"
+                time="2019 - 2022"
+                place="JSS Polytechnic"
                 info="SJCE campus, Mysuru - 570006."
                 />
 
                 <Details 
-                type="Bachelor Of Information Science & Engineering"
-                time="Pursuing B.E. degree with an anticipated graduation in 2025"
-                place="JSS Science and Technology University "
-                info="SJCE campus, Mysuru - 570006."
+                type="Secondary High School Education "
+                time="2018 - 2019"
+                place="Sree Cauvery Educational Institutions"
+                info="KuvempuNagara, Mysuru - 570023"
                 />
 
                 
