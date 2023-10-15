@@ -4,7 +4,7 @@ import Image from 'next/image'
 import PP from '../../public/images/profile/hg1.svg'
 import AnimatedText from '@/components/AnimatedText'
 import Lottie from "lottie-react"
-import animationData from "/rabbit.json"
+import animationData from "/space.json"
 import {useRef} from 'react'
 import Link from 'next/link'
 import {LinkArrow}  from '@/components/icons'
