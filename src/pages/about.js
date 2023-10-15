@@ -56,9 +56,8 @@ const about = () => {
                     </p>
                     </div>
 
-                <div className='col-span-3 flex flex-col relative h-max rounded-2xl border-2 border-solid border-dark
+                <div className='col-span-3 flex flex-col relative h-max rounded-[2rem] border-2 border-solid border-dark
                 bg-light p-8'>
-                  <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%]  rounded-2xl bg-dark '/>
                   <div className="relative group">
                 <Image src={Profilepic} alt="Harsha G" className='w-full h-auto rounded-[2rem] grayscale transition-transform hover:scale-105 duration-300 transform group-hover:grayscale-0'/>
                     </div>

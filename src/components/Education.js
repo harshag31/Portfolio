@@ -39,7 +39,7 @@ const Education = () => {
 
             <motion.div 
             style={{scaleY: scrollYProgress}}
-            className='absolute left-8 top-0 w-[4px] h-full bg-dark origin-top'/>          
+            className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/>          
 
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
               
