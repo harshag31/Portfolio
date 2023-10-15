@@ -8,11 +8,10 @@ import TransitionEffect from '@/components/TransitionEffect'
 const Skill = ({names, x ,y})=>{
   return(
     <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light 
-      py-3 px-6 shadow-dark cursor-pointer absolute '
+      py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light'
       whileHover={{scale:1.05}}
       initial={{x:0,y:0}}            //Aniamtion seection Animate whileInView try change values harsha after adding sections
-      whileInView={{x:x, y:y}}
-      transition ={{duration:1.5}}
+      whileInView={{x:x, y:y,transition:{duration:1.5} }}
       >
       {names}
       </motion.div>
@@ -30,7 +29,7 @@ const Skills = () => {
       <main className='flex w-full flex-col items-center justify-center'>
       <Layout className='pt-16'>
       <AnimatedText text ="Skills" className=''/>
-      <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight'> 
+      <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark'> 
     
             <Skill names="CSS" x="-10vw" y="-10vw"/>
             <Skill names="HTML" x="-20vw" y="2vw"/>

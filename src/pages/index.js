@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <TransitionEffect />
 
-      <main className='flex items-center text-dark w-full min-h-screen' >
+      <main className='flex items-center text-dark w-full min-h-screen dark:text-light' >
        <Layout className='pt-0'>
 
           <div className='flex items-center justify-between w-full'>
@@ -41,12 +41,12 @@ export default function Home() {
                 <Link href="https://drive.google.com/file/d/1-2DJhfMHhC2xbkLQmI-_RrFtq3QvTYRS/view?usp=drivesdk" target={"_blank"}
                 className="flex items-center bg-dark text-light p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
-                border-2 border-solid border-transparent hover:border-dark"
+                border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:text-light hover:dark:bg-dark hover:dark:border-light"
                 download={true}
                 >Resume  <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
                 <Link href="mailto:harshag3103@gmail.com?subject=Your%20Subject&body=You%20can%20Start%20by%20Saying%20Hi%20!." target={"_blank"}
-                className="ml-4 px-5 text-1g font-bold capitalize text-dark underline"
+                className="dark:text-light ml-4 px-5 text-1g font-bold capitalize text-dark underline"
                 >Contact</Link>
             
               </div>

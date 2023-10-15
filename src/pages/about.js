@@ -40,7 +40,7 @@ const about = () => {
         <meta name="description" content="any description"/>
         </Head><TransitionEffect />
 
-        <main className='flex w-full flex-col items-center justify-center'>
+        <main className='flex w-full flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
             <AnimatedText text ="Biography" className='mb-14'/>
             <div className='grid w-full grid-cols-8 gap-16'>
@@ -68,7 +68,7 @@ const about = () => {
                     <span className='inline-block text-7xl font-bold'>
                       <AnimatedNumbers value={3} />           
                     </span>
-                    <h2 className='text-xl font-medium capitalize text-dark/75'>Projects Completed</h2>
+                    <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects Completed</h2>
                     </div>
                     </div>
 
